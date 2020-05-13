@@ -87,7 +87,16 @@ footer div {
 .clip-teclado {
   width: 20%;
   height: auto;
-  clip-path: polygon(
+  -webkit-clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 75%,
+    75% 75%,
+    75% 100%,
+    50% 75%,
+    0% 75%
+  );
+          clip-path: polygon(
     0% 0%,
     100% 0%,
     100% 75%,
@@ -336,3 +345,6 @@ div ol {
     width: 70%;
   }
 }
+
+
+/*# sourceMappingURL=/style.78032849.css.map */
