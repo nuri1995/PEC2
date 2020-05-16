@@ -392,6 +392,46 @@ div ol {
     padding-top: 10px;
     padding-left: 0px;
   }
+  @-webkit-keyframes rotation {
+    0% {
+      transform: rotate(45deg);
+      opacity: 1;
+    }
+    100% {
+      transform: rotate(-45deg);
+      opacity: 1;
+    }
+  }
+  @keyframes rotation {
+    0% {
+      transform: rotate(45deg);
+      opacity: 1;
+    }
+    100% {
+      transform: rotate(-45deg);
+      opacity: 1;
+    }
+  }
+
+  .cuadricula_menu figure img:hover,
+  .cuadricula_menu figure i:hover {
+    -webkit-animation-name: rotation;
+            animation-name: rotation;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+    -webkit-animation-delay: 0;
+            animation-delay: 0;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-fill-mode: none;
+            animation-fill-mode: none;
+    -webkit-animation-play-state: running;
+            animation-play-state: running;
+  }
 }
 
 

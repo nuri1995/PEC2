@@ -383,4 +383,26 @@ div ol {
     padding-top: 10px;
     padding-left: 0px;
   }
+  @keyframes rotation {
+    0% {
+      transform: rotate(45deg);
+      opacity: 1;
+    }
+    100% {
+      transform: rotate(-45deg);
+      opacity: 1;
+    }
+  }
+
+  .cuadricula_menu figure img:hover,
+  .cuadricula_menu figure i:hover {
+    animation-name: rotation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+  }
 }
