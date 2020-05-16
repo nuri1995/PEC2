@@ -115,15 +115,17 @@
           </p>
 
           <figure class="center">
-            <picture>
-              <img src="../img/escritorio.jpg" alt="HTML" />
-            </picture>
+            <img src="../img/escritorio.jpg" alt="HTML" />
           </figure>
 
           <h3>Las ventajas del JavaScript:</h3>
           <figure class="right">
             <picture>
-              <img src="../img/libros_desktop.jpg" alt="HTML" />
+              <source
+                media="(max-width: 768px)"
+                srcset="../img/libros_mobile.jpg"
+              />
+              <img src="../img/libros_desktop.jpg" alt="webpack" />
             </picture>
           </figure>
 
@@ -225,9 +227,7 @@
             </li>
           </ul>
           <figure class="center">
-            <picture>
-              <img src="../img/ordenador.jpg" alt="HTML" />
-            </picture>
+            <img src="../img/ordenador.jpg" alt="HTML" />
           </figure>
         </div>
       </div>
