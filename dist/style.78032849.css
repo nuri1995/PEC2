@@ -147,6 +147,8 @@ main {
 .content figure {
   width: 100%;
   margin: 0 auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
   text-align: center;
 }
 img {
@@ -220,12 +222,29 @@ div ol {
   width: 50%;
   height: auto;
 }
-
-.content img {
+.imgDestacada {
   width: 30%;
   height: auto;
   float: left;
   padding-top: 18px;
+}
+.right {
+  width: 40%;
+  height: auto;
+  float: right;
+  padding-bottom: 18px;
+  padding-left: 18px;
+  padding-top: 10px;
+  padding-right: 0px;
+}
+.left {
+  width: 40%;
+  height: auto;
+  float: left;
+  padding-bottom: 18px;
+  padding-right: 18px;
+  padding-top: 10px;
+  padding-left: 0px;
 }
 
 @media screen and (min-width: 768px) {
@@ -342,7 +361,8 @@ div ol {
   }
 
   .content figure {
-    width: 70%;
+    width: 80%;
+    height: auto;
   }
 }
 
