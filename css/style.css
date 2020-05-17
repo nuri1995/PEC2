@@ -399,7 +399,6 @@ div ol {
     animation-name: rotation;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
-    animation-delay: 0;
     animation-direction: alternate;
     animation-iteration-count: infinite;
     animation-fill-mode: none;
